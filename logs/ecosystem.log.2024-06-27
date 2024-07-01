@@ -1,0 +1,26 @@
+  [2m2024-06-27T08:17:53.569361Z[0m [32m INFO[0m [1;32maxum_tracing[0m[32m: [32mListening server on: 0.0.0.0:8080[0m
+    [2;3mat[0m examples/axum_tracing.rs:41
+
+  [2m2024-06-27T08:18:15.937046Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mlong task too long, [1;33mapp.task_duration[0m[33m: 102[0m
+    [2;3mat[0m examples/axum_tracing.rs:61
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-06-27T08:18:15.937106Z[0m [32m INFO[0m [1;32maxum_tracing[0m[32m: [32mindex handler finished, [1;32mhttp.status[0m[32m: 200[0m
+    [2;3mat[0m examples/axum_tracing.rs:52
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-06-27T08:43:09.812926Z[0m [32m INFO[0m [1;32maxum_tracing[0m[32m: [32mListening server on: 0.0.0.0:8080[0m
+    [2;3mat[0m examples/axum_tracing.rs:41
+
+  [2m2024-06-27T08:43:15.072307Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mlong task too long, [1;33mapp.task_duration[0m[33m: 102[0m
+    [2;3mat[0m examples/axum_tracing.rs:62
+    [2;3min[0m axum_tracing::[1mlong_task[0m
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-06-27T08:43:15.072529Z[0m [32m INFO[0m [1;32maxum_tracing[0m[32m: [32mindex handler finished, [1;32mhttp.status[0m[32m: 200[0m
+    [2;3mat[0m examples/axum_tracing.rs:52
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+[2m2024-06-27T09:04:04.657912Z[0m [32m INFO[0m [2maxum_tracing[0m[2m:[0m Listening server on: 0.0.0.0:8080
+[2m2024-06-27T09:04:10.373306Z[0m [33m WARN[0m [1mindex_handler[0m[2m:[0m[1mlong_task[0m[2m:[0m [2maxum_tracing[0m[2m:[0m long task too long [3mapp.task_duration[0m[2m=[0m102
+[2m2024-06-27T09:04:10.373591Z[0m [32m INFO[0m [1mindex_handler[0m[2m:[0m [2maxum_tracing[0m[2m:[0m index handler finished [3mhttp.status[0m[2m=[0m200
