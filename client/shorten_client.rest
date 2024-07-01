@@ -1,0 +1,7 @@
+### Post the URL to shorten
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "url": "https://www.rust-lang.org/"
+}
